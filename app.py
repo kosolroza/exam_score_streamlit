@@ -96,8 +96,8 @@ def render_app() -> None:
     st.line_chart(chart_data.set_index("Study Hours")[["GPA", "Predicted GPA"]])
 
 
-if __name__ == "__main__":
-    render_app()
+# if __name__ == "__main__":
+#     render_app()
 
 
 render_app()
